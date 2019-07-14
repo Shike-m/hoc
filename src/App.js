@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import SideBar from './components/SideBar';
+import Home from './Home';
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-     <SideBar />
+      <Home />
     </div>
   );
 }

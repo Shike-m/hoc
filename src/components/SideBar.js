@@ -21,9 +21,9 @@ class SideBar extends React.Component{
             <Div>
                 <Tabs onClick={this.handleClick}>
                     <Tab>Popular Movies.</Tab>
-                    <Tab>popular Books.</Tab>
-                    <Tab>Top Stars.</Tab>
-                    <Tab>On Showing.</Tab>
+                    <Tab>Movies in-Threaters.</Tab>
+                    <Tab>Top 250.</Tab>
+                    <Tab>Coming soon.</Tab>
                 </Tabs>
             </Div>
         )
